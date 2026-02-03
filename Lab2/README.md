@@ -15,15 +15,14 @@ The objective of this lab is to address a **Classification** problem within the 
 ---
 
 ## 3. Dataset Description
-* **Dataset Name:** Phishing Email Dataset
+* **Dataset Name:** Phishing Emails
 * **Source:** Kaggle
-* **Size:** 18,650 entries
-* **Target Variable:** `Email Type` (Categorical: Phishing vs. Safe)
-* **Features:** `Email Text` (The content of the email message)
+* **Target Variable:** `label` (0 for Safe, 1 for Phishing)
+* **Features:** `text` (The content of the email message)
 
 ### Important Note on Dataset File:
-The original dataset file (`Phishing_Email.csv`) exceeds **25MB**, which is the maximum limit for direct file uploads via the GitHub web interface. 
-* **Data Access:** You can download the full dataset directly from the source here: [Kaggle - Phishing Email Dataset](https://www.kaggle.com/datasets/subhajitmondal/phishing-emails-dataset)
+The original dataset file exceeds **25MB**, which is the maximum limit for direct file uploads via the GitHub web interface. 
+* **Data Access:** You can download the full dataset directly from the source here: [Kaggle - Phishing Emails](https://www.kaggle.com/datasets/subhajitmondal/phishing-emails-dataset)
 * **Verification:** The data loading, shape, and preview are fully documented and visible in the attached Jupyter Notebook (`Lab2_ML.ipynb`).
 
 ---
