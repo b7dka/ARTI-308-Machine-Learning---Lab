@@ -1,17 +1,44 @@
-# Lab 2: Phishing Email Detection Methodology
+# Lab 2: Dataset Selection and Methodology
 
-## 1. Problem Statement
-[cite_start]This project addresses a **Classification** problem[cite: 7]. [cite_start]The goal is to develop a machine learning model that predicts whether an email is a "Phishing Email" or a "Safe Email" based on its content[cite: 22, 31].
+## 1. Student Information
+* **Name:** Mohammed Abullah Al Hashim
+* **Course:** ARTI-308 – Machine Learning
+* **Major:** Cybersecurity & Digital Forensics
 
-## 2. Dataset Description
-* [cite_start]**Source:** Kaggle (Phishing Email Dataset)[cite: 14].
-* [cite_start]**Shape:** 18,650 rows and 3 columns[cite: 37].
-* [cite_start]**Target Variable:** 'Email Type' (Safe Email vs. Phishing Email)[cite: 9, 30].
-* [cite_start]**Features:** 'Email Text' content[cite: 39].
+---
 
-## 3. Methodology
-As illustrated in the methodology diagram, the workflow follows these stages:
-* [cite_start]**Data Collection & Loading:** Loading the CSV dataset using Pandas[cite: 36, 44, 45].
-* [cite_start]**Text Preprocessing:** Cleaning the email text for analysis[cite: 46].
-* [cite_start]**Model Training:** Using classification algorithms to learn patterns[cite: 48].
-* [cite_start]**Evaluation:** Measuring performance through accuracy and other metrics[cite: 49, 50].
+## 2. Problem Statement
+The objective of this lab is to address a **Classification** problem within the cybersecurity domain. We are working on a **Phishing Email Detection** system. The goal is to build a model that can accurately classify emails into two categories:
+* **Phishing:** Fraudulent emails intended to steal data.
+* **Safe:** Legitimate and secure emails.
+
+---
+
+## 3. Dataset Description
+* **Dataset Name:** Phishing Email Dataset
+* **Source:** Kaggle
+* **Size:** 18,650 entries
+* **Target Variable:** `Email Type` (Categorical: Phishing vs. Safe)
+* **Features:** `Email Text` (The content of the email message)
+
+### Important Note on Dataset File:
+The original dataset file (`Phishing_Email.csv`) exceeds **25MB**, which is the maximum limit for direct file uploads via the GitHub web interface. 
+* **Data Access:** You can download the full dataset directly from the source here: [Kaggle - Phishing Email Dataset](https://www.kaggle.com/datasets/subhajitmondal/phishing-emails-dataset)
+* **Verification:** The data loading, shape, and preview are fully documented and visible in the attached Jupyter Notebook (`Lab2_ML.ipynb`).
+
+---
+
+## 4. Methodology Diagram
+The following diagram illustrates the machine learning workflow for this project, starting from data collection to the final evaluation.
+
+
+
+---
+
+## 5. Implementation Details
+The project implementation is divided into:
+1. **Jupyter Notebook (`Lab2_ML.ipynb`):** Contains the Python code used to load the dataset using Pandas, display its shape, and preview the data.
+2. **Methodology:** A structured approach to cleaning text data and preparing it for the classification model.
+
+---
+*Maintained by Mohammed Abdullah Al Hashim - 2240006236*
