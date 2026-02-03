@@ -5,7 +5,7 @@ This repository contains all lab assignments and practical implementations for t
 
 ## Student Information
 * **Name:*Mohammed Abdullah Al Hashim*
-* **Student ID:*2240006236* 
+* **Student ID: *2240006236* 
 
 ---
 *Maintained by Mohammed*
