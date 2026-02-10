@@ -1,43 +1,35 @@
-# Lab 2: Dataset Selection and Methodology
+# Lab 2: Student Health & Risk Level Prediction
 
 ## 1. Student Information
-* **Name:** Mohammed Abullah Al Hashim
+* **Name:** Mohammed Abdullah Al Hashim
 * **Course:** ARTI-308 – Machine Learning
 * **Major:** Cybersecurity & Digital Forensics
 
 ---
 
 ## 2. Problem Statement
-The objective of this lab is to address a **Classification** problem within the cybersecurity domain. We are working on a **Phishing Email Detection** system. The goal is to build a model that can accurately classify emails into two categories:
-* **Phishing:** Fraudulent emails intended to steal data.
-* **Safe:** Legitimate and secure emails.
+The objective of this project is to solve a **Multi-class Classification** problem. We aim to predict the **Health Risk Level** (Low, Moderate, High) of college students based on their physiological data (heart rate, blood pressure), psychological state, and academic workload.
 
 ---
 
 ## 3. Dataset Description
-* **Dataset Name:** Phishing Emails
-* **Source:** Kaggle
-* **Target Variable:** `label` (0 for Safe, 1 for Phishing)
-* **Features:** `text` (The content of the email message)
-
-### Important Note on Dataset File:
-The original dataset file exceeds **25MB**, which is the maximum limit for direct file uploads via the GitHub web interface. 
-* **Data Access:** You can download the full dataset directly from the source here: [Kaggle - Phishing Emails](https://www.kaggle.com/datasets/subhajitmondal/phishing-emails-dataset)
-* **Verification:** The data loading, shape, and preview are fully documented and visible in the attached Jupyter Notebook (`Lab2_ML.ipynb`).
+* **Dataset Name:** Students' Health, Stress, and Academic Performance.
+* **Key Features:** * **Physiological:** Heart Rate, Blood Pressure, Stress Levels.
+    * **Academic:** Hours spent on tasks and projects.
+    * **Lifestyle:** Sleep Quality and Physical Activity.
+* **Target Variable:** `Health Risk Level` (Low, Moderate, High).
 
 ---
 
 ## 4. Methodology Diagram
-The following diagram illustrates the machine learning workflow for this project, starting from data collection to the final evaluation.
+The project follows a structured machine learning pipeline:
+1. **Data Collection:** Gathering student health and activity data.
+2. **Preprocessing:** Handling physiological sensor data and self-reports.
+3. **Exploratory Data Analysis (EDA):** Checking correlations between stress and health risks.
+4. **Model Training:** Training classifiers to predict risk categories.
+5. **Evaluation:** Assessing accuracy and performance.
 
 
 
 ---
-
-## 5. Implementation Details
-The project implementation is divided into:
-1. **Jupyter Notebook (`Lab2_ML.ipynb`):** Contains the Python code used to load the dataset using Pandas, display its shape, and preview the data.
-2. **Methodology:** A structured approach to cleaning text data and preparing it for the classification model.
-
----
-*Maintained by Mohammed Abdullah Al Hashim - 2240006236*
+*Maintained by Mohammed - 2240006236 *
