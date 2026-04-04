@@ -28,13 +28,6 @@ The workflow follows a standard ML pipeline:
 
 ---
 
-## Tech Stack
-- Python 3  
-- Pandas, NumPy  
-- Scikit-learn  
-- Matplotlib, Seaborn  
-
----
 
 ## 📊 Results
 - Built a complete **end-to-end regression model**  
