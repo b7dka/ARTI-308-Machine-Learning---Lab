@@ -1,4 +1,4 @@
-# Student Health Data - Linear Regression Model
+# Ecommerce Customers - Linear Regression Modeling
 
 ### 👤 Author
 - **Mohammed Abdullah Al Hashim**  
@@ -8,33 +8,23 @@
 ---
 
 ## 📌 Overview
-This lab applies a **Machine Learning Regression model** to predict students' **Stress Level (Biosensor)** using health and lifestyle-related features from the dataset.
+This lab builds a **Machine Learning regression model** to predict customers' **Yearly Amount Spent** using behavioral and membership-related features from an ecommerce dataset.
 
 ---
 
 ## 🛠️ Methodology
-The workflow follows the same steps used in the lab:
+The workflow follows a standard ML pipeline:
 
-- **Data Cleaning:** fixing dataset formatting issues and converting data types  
-- **Data Exploration:** inspecting structure, statistics, and missing values  
-- **EDA (Exploratory Data Analysis):**
-  - Pairplots  
-  - Distribution plots  
-  - Correlation heatmap  
-- **Feature Selection:**
-  - Target: `Stress_Level_Biosensor`  
-  - Dropped unnecessary columns (e.g., `Student_ID`)  
-- **Preprocessing:**
-  - Converting categorical variables using **One-Hot Encoding**  
-- **Train-Test Split:** dividing data into training and testing sets  
+- **Data Exploration:** checking dataset structure, summary statistics, and column names  
+- **Exploratory Data Analysis (EDA):** visualizing relationships between features using pairplots, distribution plots, and a correlation heatmap  
+- **Feature Selection:** defining input features (`Avg. Session Length`, `Time on App`, `Time on Website`, `Length of Membership`) and target (`Yearly Amount Spent`)  
+- **Train-Test Split:** separating data into training and testing sets  
 - **Model:** Linear Regression  
-- **Evaluation:**
-  - Mean Absolute Error (MAE)  
-  - Mean Squared Error (MSE)  
-  - Root Mean Squared Error (RMSE)  
-- **Visualization:**
-  - Actual vs Predicted scatter plot  
-  - Residual distribution  
+- **Training:** fitting the model on the training data  
+- **Evaluation:** predictions, scatter plot of actual vs predicted values, residual distribution, and error metrics:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
 
 ---
 
@@ -47,14 +37,15 @@ The workflow follows the same steps used in the lab:
 ---
 
 ## 📊 Results
-- Built a complete **Linear Regression model**  
-- Identified relationships between features and stress levels  
+- Built a complete **end-to-end regression model**  
+- Analyzed the relationship between customer activity and yearly spending  
 - Evaluated model performance using standard regression metrics  
+- Visualized prediction quality and residual errors  
 
 ---
 
 ## 🚀 Conclusion
-The model demonstrates how student lifestyle and health factors can be used to predict stress levels using a structured Machine Learning workflow.
+The model successfully predicts customer yearly spending using a structured **Linear Regression** workflow. The lab demonstrates how regression can be used to understand customer behavior and estimate future spending patterns.
 
 ---
 
