@@ -28,7 +28,7 @@ The workflow follows a standard ML pipeline:
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 - Python 3  
 - Pandas, NumPy  
 - Scikit-learn  
@@ -44,7 +44,7 @@ The workflow follows a standard ML pipeline:
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 The model successfully predicts customer yearly spending using a structured **Linear Regression** workflow. The lab demonstrates how regression can be used to understand customer behavior and estimate future spending patterns.
 
 ---
